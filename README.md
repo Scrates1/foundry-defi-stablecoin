@@ -13,9 +13,11 @@
 一些知识点：
 
 - 两种测试
-  - invariant 测试
-    - invariant: 系统 always hold 的 property。（stateful fuzz testing）
+  - invariant 测试（stateful fuzz testing）
+    - invariant: 系统 always hold 的 property。
+    - Random Data & **Random Function Calls to many functions**
   - 模糊测试（stateless fuzz testing）
+    - Random Data to one function
 - 更安全的 OracleLib
 
 待进行：
